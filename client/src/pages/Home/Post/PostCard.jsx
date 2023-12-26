@@ -1,6 +1,6 @@
 import Profile from '../../../assets/Profile.jpg'
 import Image from '../../../assets/cover2.jpg'
-import { GoHeart, GoHeartFill,GoComment } from "react-icons/go";
+import { GoHeart,GoComment } from "react-icons/go";
 import { PiShareFat } from "react-icons/pi";
 
 
@@ -25,9 +25,9 @@ const PostCard = () => {
       </div>
 
       <div className="flex items-center gap-3 lg:gap-5 py-3">
-        <button className='flex items-center gap-1'><GoHeart size={25}/><span className='text-xs lg:text-sm'>20 Likes</span></button>
-        <button className='flex items-center gap-1'><GoComment size={25}/><span className='text-xs lg:text-sm'>20 Comments</span></button>
-        <button className='flex items-center gap-1'><PiShareFat size={25}/><span className='text-xs lg:text-sm'>20 Shares</span></button>
+        <button className='flex items-center gap-1'><GoHeart size={25}/><p className='text-xs lg:text-sm'>20 <samp className='max-md:hidden'>Likes</samp></p></button>
+        <button className='flex items-center gap-1'><GoComment size={25}/><p className='text-xs lg:text-sm'>20 <samp className='max-md:hidden'>Comments</samp></p></button>
+        <button className='flex items-center gap-1'><PiShareFat size={25}/><p className='text-xs lg:text-sm'>20 <samp className='max-md:hidden'>Shares</samp></p></button>
       </div>
      
     </div>

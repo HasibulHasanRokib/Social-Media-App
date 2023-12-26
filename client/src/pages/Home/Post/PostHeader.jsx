@@ -1,5 +1,5 @@
 import Profile from "../../../assets/Profile.jpg"
-import { IoVideocam,IoImagesSharp,IoHappyOutline } from "react-icons/io5";
+import { IoVideocam } from "react-icons/io5";
 import { FaImage } from "react-icons/fa";
 import { BsCalendar2EventFill } from "react-icons/bs";
 import { FaSmile } from "react-icons/fa";

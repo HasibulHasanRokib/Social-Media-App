@@ -1,15 +1,15 @@
 import { Link } from 'react-router-dom';
-import Profile from '../../../assets/Profile.jpg'
-import Cover from '../../../assets/cover2.jpg'
+import Profile from '../assets/Profile.jpg'
+import Cover from '../assets/Profile.jpg'
 import { VscBriefcase,VscHome,VscLocation,VscCalendar,VscMortarBoard } from "react-icons/vsc";
 
 
 const ProfileCard = () => {
   return (
+    <section className='max-lg:hidden'>
     <div className=' bg-white border rounded-lg relative flex flex-col gap-2 shadow-sm'>
-
     <div className="flex p-2 flex-col justify-center items-center relative">
-    <img className='h-32 w-full rounded-sm' src={Cover} alt="Cover" />
+    <img className='h-32 w-full rounded-sm object-cover' src={Cover} alt="Cover" />
     <img className='w-24 border-2 rounded-full shadow-md absolute bottom-[-2rem]' src={Profile} alt="Profile" />
     </div>
 
@@ -48,6 +48,7 @@ const ProfileCard = () => {
     <Link to={'/profile'} className='py-2 text-center border-t-2 font-semibold text-blue-700'>View Profile</Link>
      
   </div>
+  </section>
   )
 }
 

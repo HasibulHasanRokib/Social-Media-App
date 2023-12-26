@@ -1,10 +1,8 @@
 import Image from "../../assets/Profile.jpg"
 import Cover from "../../assets/cover2.jpg"
 import { VscChromeClose } from "react-icons/vsc";
-import { BsCardImage } from "react-icons/bs";
 import { useRef, useState } from "react";
-import { VscEdit,VscEllipsis } from "react-icons/vsc";
-import { VscBriefcase,VscHome,VscLocation,VscCalendar,VscMortarBoard } from "react-icons/vsc";
+import { VscEdit } from "react-icons/vsc";
 
 
 const EditProfile = ({handleEditProfile}) => {
@@ -14,7 +12,7 @@ const fileRef=useRef()
 
   return (
     <div className="fixed backdrop-blur-sm shadow-md h-screen p-2 flex justify-center items-center w-full bg-slate-700/35 z-50  top-0">
-     <div className="md:w-2/5 w-full p-3 my-5 flex flex-col gap-3 bg-white rounded-md shadow-sm border">
+     <div className="lg:w-2/5 md:w-4/5 w-full p-3 my-5 flex flex-col gap-3 bg-white rounded-md shadow-sm border">
        <div className="py-3 border-b-2 flex justify-between">
        <h2 className="font-bold text-lg">Edit profile</h2>
        <button onClick={handleEditProfile} type="button"><VscChromeClose/></button>     

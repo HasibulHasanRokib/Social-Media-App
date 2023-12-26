@@ -10,7 +10,7 @@ const fileRef=useRef()
 
   return (
     <div className="fixed backdrop-blur-sm shadow-md h-screen p-2 flex justify-center items-center w-full bg-slate-700/35 z-50  top-0">
-     <div className="md:w-2/5 w-full p-3 my-5 flex flex-col gap-3 bg-white rounded-md shadow-sm border">
+     <div className="lg:w-2/5 w-full p-3 my-5 flex flex-col gap-3 bg-white rounded-md shadow-sm border">
        <div className="py-3 border-b-2 flex justify-between">
        <h2 className="font-bold text-lg">Add post here</h2>
        <button onClick={handleClick} type="button"><VscChromeClose/></button>     

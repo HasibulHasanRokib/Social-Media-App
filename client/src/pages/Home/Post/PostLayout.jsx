@@ -1,13 +1,12 @@
 import React, { useState } from 'react'
 import PostHeader from './PostHeader'
 import PostCard from './PostCard'
-import CreatePost from './CreatePost'
 
-const PosLayout = ({handleClick}) => {
+const PostLayout = ({handleClick}) => {
  
   return (
     <>
-    <div className='flex flex-col relative px-2 gap-2 h-screen overflow-y-scroll'>
+    <div className='flex flex-col relative  gap-2 h-screen overflow-y-scroll'>
      <PostHeader handleClick={handleClick}/>
      <div className="flex flex-col gap-2">
       <PostCard/>
@@ -19,4 +18,4 @@ const PosLayout = ({handleClick}) => {
   )
 }
 
-export default PosLayout
+export default PostLayout

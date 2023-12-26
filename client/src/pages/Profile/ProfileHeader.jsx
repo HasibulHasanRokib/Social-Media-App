@@ -9,7 +9,7 @@ const ProfileHeader = ({handleEditProfile}) => {
     <div className=" relative bg-white p-3 rounded-md shadow-sm border">
         <img src={Cover} alt="" className='w-full lg:h-64 h-32 rounded-md border' />
 
-        <div className="flex max-md:flex-col max-md:gap-2 lg:justify-between lg:items-center py-3 mt-[-3rem] px-4 border-b">
+        <div className="flex max-md:flex-col max-md:gap-2 md:justify-between md:items-center py-3 lg:mt-[-3rem] mt-[-2rem] px-4 ">
         <div className="flex max-md:flex-col items-center">
             <img src={Profile} alt="" className='w-28 rounded-full border-4' />
             <div className="flex flex-col lg:mt-8 max-md:items-center">

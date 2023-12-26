@@ -1,6 +1,5 @@
 import { useState } from "react";
 import { VscEye, VscEyeClosed } from "react-icons/vsc";
-import { Link } from "react-router-dom";
 import SignUp from "./SignUp";
 
 const Login = () => {

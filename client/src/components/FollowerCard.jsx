@@ -1,4 +1,4 @@
-import Follower from '../../../assets/Follower.jpg'
+import Follower from '../assets/Follower.jpg'
 const FollowerCard = () => {
   return (
     <>
